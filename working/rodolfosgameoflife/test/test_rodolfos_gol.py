@@ -1,6 +1,6 @@
 """Test for my implementation of the Game of Life."""
 
-from mymodule import GameOfLife
+from mymodulerodolfo import GameOfLife
 
 import pytest
 import numpy as np
