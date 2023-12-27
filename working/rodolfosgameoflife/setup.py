@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mymodule",
+    name="mymodulerodolfo",
     description="test module the SciComp class",
     url="https://github.com/rodolfocarobene",
     author="Rodolfo Carobene",
