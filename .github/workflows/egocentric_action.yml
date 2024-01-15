@@ -11,5 +11,5 @@ jobs:
 
     - name: Check readme.md
       run: |
-        cat readme.md | grep "Rodolfo"
+        cat README.md | grep "Rodolfo"
         echo "Job status  -  ${{ job.status }}."

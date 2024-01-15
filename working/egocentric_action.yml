@@ -10,5 +10,6 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Check readme.md
-      run: cat readme.md | grep "Rodolfo"
-      run: echo "Job status  -  ${{ job.status }}."
+      run: |
+        cat README.md | grep "Rodolfo"
+        echo "Job status  -  ${{ job.status }}."
