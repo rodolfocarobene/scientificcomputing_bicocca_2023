@@ -1,0 +1,14 @@
+name: Be egocentric!
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Check readme.md
+      run: cat readme.md | grep "Rodolfo"
+      run: echo "Job status  -  ${{ job.status }}."
